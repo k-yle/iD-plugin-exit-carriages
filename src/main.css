@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: 0;
+  height: 300px;
+}
+.container {
+  margin: 2px;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  overflow-x: scroll;
+}
+.table {
+  width: 1000px;
+  border-collapse: collapse;
+}

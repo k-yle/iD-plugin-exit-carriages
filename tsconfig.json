@@ -1,0 +1,9 @@
+{
+  "extends": "eslint-config-kyle/tsconfig.base.json",
+  "compilerOptions": {
+    "noPropertyAccessFromIndexSignature": false, // bc of css modules
+    "types": ["vite/client"],
+    "lib": ["dom", "dom.iterable", "es2023"]
+  },
+  "include": ["src"]
+}
